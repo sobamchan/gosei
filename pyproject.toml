@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "gosei"
+version = "0.1.0"
+description = ""
+authors = ["sobamchan <oh.sore.sore.soutarou@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gosei"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.4.0"
+click = "^8.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+neovim = "^0.3.1"
+ipython = "^8.8.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gosei = "gosei.main:main"
