@@ -16,7 +16,7 @@ pip install gosei
 # Run
 
 ```
-gosei -a /path/to/first/image -b /path/to/second/image -o /save/path
+gosei -a image_a.jpg -b image_b.jpg -o result.jpg
 ```
 
 # Limitations
