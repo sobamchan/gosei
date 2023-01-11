@@ -4,7 +4,7 @@ Make a collage from two photos.
 
 From two images, you make make a collage like below with one command.
 
-![alt text](out.png "Sample")
+![alt text](out.jpg "Sample")
 
 
 # Installation
